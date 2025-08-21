@@ -1,3 +1,4 @@
+/* Global */
 body { 
     font-family: Arial, sans-serif; 
     margin: 0; 
@@ -16,20 +17,20 @@ body {
     font-weight: bold;
   }
   
-  
+  /* Medium screens */
   @media only screen and (min-width: 600px) {
     nav ul { display: flex; gap: 1rem; }
     main { background: yellow; }
   }
   
-  
+  /* Large screens */
   @media only screen and (min-width: 900px) {
     body { max-width: 900px; margin: auto; }
     h1 { font-size: 3rem; }
     main { background: blue; }
   }
   
-  
+  /* Extra large */
   @media only screen and (min-width: 1200px) {
     main { background: red; }
   }
