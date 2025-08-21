@@ -1,0 +1,35 @@
+body { 
+    font-family: Arial, sans-serif; 
+    margin: 0; 
+    padding: 0; 
+  }
+  header, nav, main, footer { 
+    padding: 1rem; 
+  }
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+  }
+  
+  
+  @media only screen and (min-width: 600px) {
+    nav ul { display: flex; gap: 1rem; }
+    main { background: yellow; }
+  }
+  
+  
+  @media only screen and (min-width: 900px) {
+    body { max-width: 900px; margin: auto; }
+    h1 { font-size: 3rem; }
+    main { background: blue; }
+  }
+  
+  
+  @media only screen and (min-width: 1200px) {
+    main { background: red; }
+  }
